@@ -476,5 +476,3 @@ dependencies:
     - tensorflow-estimator==2.10.0
     - tensorflow-io-gcs-filesystem==0.31.0
     - termcolor==2.4.0
-prefix: C:\Users\jimal\Anaconda3\envs\udacity-dog
-
