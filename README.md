@@ -30,7 +30,17 @@ It is recommended to use Anaconda for this project. A [requirements.txt](require
 
 To run the notebooks, I recommend following the instructions on the [Udacity project](https://github.com/udacity/dog-project) to download the necessary datasets and bottleneck features as well as setting up TensorFlow.
 
-To run the web application, activate your conda environment with ```conda activate dog_env```. Then, navigate to the `app` folder in your terminal and run ```python app.py```.
+To run the web application, activate your conda environment with ```conda activate dog_env```. Then, navigate to the `app` folder in your terminal and run ```python app.py```. The web app contains two sections.
+
+![image](https://github.com/jimtoledo/Udacity-Dog-Project/assets/55601603/a0d75192-4268-4649-8d78-2e40197ae6ae)
+
+The **demo models** section allows users to upload a number of images (_jpeg/png_) and select one of the four models to classify each image.
+
+![image](https://github.com/jimtoledo/Udacity-Dog-Project/assets/55601603/e9388437-c05f-4d6e-9070-2ceaa73a018f)
+
+The **model stats** section shows the model performance metrics produced by [model_stats.ipynb](model_stats.ipynb). It also has an interactive section where users can explore all model predictions on the test set, with a dog breed filter.
+
+![image](https://github.com/jimtoledo/Udacity-Dog-Project/assets/55601603/644e3708-00e0-4d9f-9873-4d4c64de5ffe)
 
 ## License
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
