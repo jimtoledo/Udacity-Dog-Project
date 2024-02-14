@@ -1,7 +1,8 @@
 from dash import html, dcc, dash_table
+from dash import get_asset_url
 import dash_bootstrap_components as dbc
 from model_util import pre_trained_models, dog_names
-from util import get_metric_graphs, model_preds
+from util import model_preds
 
 models = [model for model in pre_trained_models]
 
@@ -51,7 +52,9 @@ data_tab = dbc.Tab(label='Model stats', tab_id='stats_tab', active_tab_class_nam
     html.Br(),
     html.H4('Model train/validate/test loss and accuracy'),
     html.Hr(),
-    html.Img(src=get_metric_graphs(), style={'max-width': '100%'}),
+    html.Img(src=get_asset_url('modelmetrics.png'), style={'max-width': '100%'}),
+    html.Br(),
+    html.Img(src=get_asset_url('f1scores.png'), style={'max-width': '100%'}),
     html.Br(),
     html.H4('Explore model accuracy on testing set'),
     html.Hr(),
