@@ -1,14 +1,12 @@
 # Udacity-Dog-Project
 
-TODO: web app, show accuracy on training/validation/test data sets (filter by dog breed)
-
 ## Project Definition
 This project was created as part of Udacity's [Data Scientist](https://www.udacity.com/school/data-science) nanodegree program. Computer vision is a field that has greatly benefitted from deep learning. This project looks at identifying and classifying dog breeds from real-world images using convolution neural networks (CNNs). Udacity has provided a [starting template](https://github.com/udacity/dog-project) with guidance that this project builds on.
 
 This project contains a Jupyter notebook that walks through the process of building a CNN to classify dog breed given an image: first from scratch, then using transfer learning on a pre-trained network. The final section of this notebook shows a pipeline that takes in an image. If a dog is detected, the code will predict the dog's breed; if a human is detected, the code will identify the resembling dog breed. There is another notebook that generates charts for accuracy and categorical cross-entropy loss for various trained models during training, validation, and testing. Finally, a dash web application was built to explore each model's performance on the test dataset and provide the opportunity to test each model on user-supplied images.
 
 ## Analysis
-Four different models were trained using transfer learning on networks that were pre-trained on the ImageNet database: *VGG16*, *VGG19*, *InceptionV3* and *Xception*. The image below shows the accuracy ($\text{\# of correct predictions} / \text{\# of total predictions}$) and categorical cross-entropy loss (also known as softmax loss) on the train/validation sets during training, then on the test set.
+Four different models were trained using transfer learning on networks that were pre-trained on the ImageNet database: *VGG16*, *VGG19*, *InceptionV3* and *Xception*. The image below shows the accuracy (# of correct predictions/# of total predictions) and categorical cross-entropy loss (also known as softmax loss) on the train/validation sets during training, then on the test set.
 
 ![image](app/static/modelmetrics.png)
 
@@ -38,4 +36,4 @@ To run the web application, activate your conda environment with ```conda activa
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ## Acknowledgements
-Thanks to Udacity for providing the dataset, starting code, and guidance for this project as well as the overall Data Science nanodegree program. 
+Thanks to Udacity for providing the dataset, starting code, and guidance for this project as well as the overall Data Science nanodegree program.
