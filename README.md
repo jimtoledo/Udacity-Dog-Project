@@ -36,7 +36,7 @@ To run the web application, activate your conda environment with ```conda activa
 
 The **demo models** section allows users to upload a number of images (_jpeg/png_) and select one of the four models to classify each image.
 
-![image](https://github.com/jimtoledo/Udacity-Dog-Project/assets/55601603/e9388437-c05f-4d6e-9070-2ceaa73a018f)
+![image](https://github.com/jimtoledo/Udacity-Dog-Project/assets/55601603/617ba8f1-32c7-461d-8f1f-1e1f107ba24a)
 
 The **model stats** section shows the model performance metrics produced by [model_stats.ipynb](model_stats.ipynb). It also has an interactive section where users can explore all model predictions on the test set, with a dog breed filter.
 
